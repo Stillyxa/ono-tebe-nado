@@ -264,10 +264,10 @@ background-color: #000000;
 
 .footer {
   display: grid;
-  grid-template-columns: 0.80fr 2.06fr 0.8fr;
+  grid-template-columns: 1fr 2.18fr 0.8fr;
 
   justify-content: center;
-  padding: 180px 50px 88px 50px;
+  padding: 184px 50px 88px 50px;
 }
 
 .footer__social-icon {
@@ -276,7 +276,7 @@ background-color: #000000;
 }
 
 .footer__menu-list {
-  padding-left: 28px;
+  padding-left: 3px;
   text-align: center;
   list-style: none;
 }
