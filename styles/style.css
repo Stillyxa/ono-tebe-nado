@@ -1,8 +1,8 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1.7fr;
+  grid-template-columns: 1fr 1.02fr 1.70fr;
   align-items: center;
-  padding: 88px 51px 89px;
+  padding: 86px 52px 89px;
 }
 
 .header__links-list {
@@ -40,6 +40,7 @@
 .address {
   justify-self: end;
   font-style: inherit;
+  line-height: 1.6;
 }
 .address__item {
   display: block;
@@ -266,7 +267,7 @@ background-color: #000000;
 
 .footer {
   display: grid;
-  grid-template-columns: 0.8fr 2.0fr 0.8fr;
+  grid-template-columns: 0.80fr 2.06fr 0.8fr;
 
   justify-content: center;
   padding: 180px 50px 88px 50px;
@@ -278,7 +279,7 @@ background-color: #000000;
 }
 
 .footer__menu-list {
-  padding-left: 23px;
+  padding-left: 28px;
   text-align: center;
   list-style: none;
 }
